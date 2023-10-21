@@ -34,7 +34,6 @@ read -p "Create an initial README file? (y/n): " create_readme
 if [ "$create_readme" = "y" ]; then
     echo "# My Project" > README.md
     if [ -n "$github_url" ]; then
-        echo -e "\nGitHub Repository: $github_url" >> README.md
         git remote add origin "$github_url"
     fi
     git add README.md
