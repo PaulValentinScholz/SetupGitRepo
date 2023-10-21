@@ -2,4 +2,4 @@
 
 To run this script, please run:
 
-```chmod +x init.sh```
+```bash -c "$(curl -fsSL https://raw.githubusercontent.com/PaulValentinScholz/SetupGitRepo/init.sh)"```
